@@ -11,11 +11,10 @@
 
 Requirements:
 
-1. A forum has multiple sections (e.g., "Off Topic", "Introduce Yourself", etc.)
-2. Users can create threads
-3. Threads belong to one and only one section
-4. Users can post a new comment in a thread
-5. Users can reply to a comment in a thread
+1. A user can submit stories
+2. Users can vote stories up or down
+3. Users can comment on stories
+4. Users can reply to other comments
 
 ##Releases
 
