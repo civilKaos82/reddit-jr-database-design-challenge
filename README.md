@@ -1,4 +1,4 @@
-# Reddit Jr Database Design 
+# Schema Design: Reddit 
  
 ##Learning Competencies 
 
