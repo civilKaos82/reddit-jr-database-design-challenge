@@ -4,26 +4,19 @@
 This challenge provides another opportunity to practice designing a database schema.  In this case, we'll be given a list of user behaviors that a web application should allow; we'll design a database schema to support the site.
 
 
-##Releases
+## Releases
+### Release 0:  Design the Schema
+We're going to design a schema to support a web application.  The web application is a junior version of [Reddit](http://reddit.com).  Take a quick look at the site, if it's not familiar.
 
-###Release 0 : Design the schema
-Have you played around with [Reddit](http://reddit.com)?  Take a look so you're familiar with how it constrains users and stories.
+As noted, we're designing a schema for a junior version of Reddit, not the full site.  Our schema should support an application that allows users to do the following:
 
-Requirements:
-
-1. A user can submit stories
-2. Users can vote stories up or down
-3. Users can comment on stories
-4. Users can reply to other comments
-
-
-Design a database schema for your very own Reddit Jr.  It should meet all the requirements.
+- A user can submit stories.
+- A user can vote stories up or down.
+- A user can comment on stories.
+- A user can comment on comments.
 
 
-Use [SQL Designer](https://socrates.devbootcamp.com/sql.html) to create your schema.  When you are done, save the XML of your schema and copy it into the source file `reddit.md`. Then, take a screenshot of your final schema design, and upload it using a free image-upload service like [Min.us](http://minus.com).  Paste the URL of the screenshot into your source file (before your XML code). 
+Use [Schema Designer][] to visually model the schema.  Submit a screenshot of the completed schema design. 
 
-<!-- ##Optimize Your Learning  -->
 
-##Resources
-
-* [SQL Designer](https://socrates.devbootcamp.com/sql.html)
+[Schema Designer]: https://schemadesigner.devbootcamp.com/
