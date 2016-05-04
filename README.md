@@ -1,9 +1,13 @@
 # Schema Design: Reddit 
  
+## Summary 
+This challenge provides another opportunity to practice designing a database schema.  In this case, we'll be given a list of user behaviors that a web application should allow; we'll design a database schema to support the site.
 
-##Summary 
 
- Have you played around with [Reddit](http://reddit.com)?  Take a look so you're familiar with how it constrains users and stories.
+##Releases
+
+###Release 0 : Design the schema
+Have you played around with [Reddit](http://reddit.com)?  Take a look so you're familiar with how it constrains users and stories.
 
 Requirements:
 
@@ -12,9 +16,6 @@ Requirements:
 3. Users can comment on stories
 4. Users can reply to other comments
 
-##Releases
-
-###Release 0 : Design the schema
 
 Design a database schema for your very own Reddit Jr.  It should meet all the requirements.
 
