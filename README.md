@@ -1,32 +1,22 @@
-# Reddit Jr Database Design 
+# Schema Design: Reddit 
  
-##Learning Competencies 
-
-* Design database schema from problem data
-* Model relationships in a relational database (one-to-one, one-to-many, many-to-many)
-
-##Summary 
-
- Have you played around with [Reddit](http://reddit.com)?  Take a look so you're familiar with how it constrains users and stories.
-
-Requirements:
-
-1. A user can submit stories
-2. Users can vote stories up or down
-3. Users can comment on stories
-4. Users can reply to other comments
-
-##Releases
-
-###Release 0 : Design the schema
-
-Design a database schema for your very own Reddit Jr.  It should meet all the requirements.
+## Summary 
+This challenge provides another opportunity to practice designing a database schema.  In this case, we'll be given a list of user behaviors that a web application should allow; we'll design a database schema to support the site.
 
 
-Use [SQL Designer](https://socrates.devbootcamp.com/sql.html) to create your schema.  When you are done, save the XML of your schema and copy it into the source file `reddit.md`. Then, take a screenshot of your final schema design, and upload it using a free image-upload service like [Min.us](http://minus.com).  Paste the URL of the screenshot into your source file (before your XML code). 
+## Releases
+### Release 0:  Design the Schema
+We're going to design a schema to support a web application.  The web application is a junior version of [Reddit](http://reddit.com).  Take a quick look at the site, if it's not familiar.
 
-<!-- ##Optimize Your Learning  -->
+As noted, we're designing a schema for a junior version of Reddit, not the full site.  Our schema should support an application that allows users to do the following:
 
-##Resources
+- A user can submit stories.
+- A user can vote stories up or down.
+- A user can comment on stories.
+- A user can comment on comments.
 
-* [SQL Designer](https://socrates.devbootcamp.com/sql.html)
+
+Use [Schema Designer][] to visually model the schema.  Submit a screenshot of the completed schema design. 
+
+
+[Schema Designer]: https://schemadesigner.devbootcamp.com/
